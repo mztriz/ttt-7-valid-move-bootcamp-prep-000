@@ -1,5 +1,5 @@
 def position_taken?(board, index)
-
+board[index] != " " or 
 end
 
 def valid_move?(boad, index)
