@@ -8,8 +8,10 @@ end
 
 def valid_move?(board, index)
   if position_taken?
-    #sumthin
+    return false
+  elsif (index < 0 or index >8)
+    return false
   else
-    #else
+    return true
   end
 end
